@@ -1,0 +1,12 @@
+business-data-analytics-dashboard/
+│
+├── .gitignore
+├── README.md
+├── main.py
+├── mysql_con.py
+├── style.css
+├── requirements.txt
+├── images/
+│   └── dashboard-preview.png
+└── data/
+    └── customers.csv (optional backup of DB)
