@@ -1,7 +1,7 @@
 # 📊 Business Data Analytics Dashboard
 
 This is an interactive Streamlit dashboard designed to visualize and analyze business data such as employee salaries, departmental distribution, and demographic statistics. It integrates with a MySQL database and offers real-time filtering and graphical insights.
-
+![homepage](https://github.com/user-attachments/assets/29469c56-6ddc-4a20-9c35-3cd6fe212a9c)
 ---
 
 ## 🚀 Features
@@ -47,7 +47,8 @@ This is an interactive Streamlit dashboard designed to visualize and analyze bus
 
 ## 🖼️ Preview
 
-![Dashboard Preview](images/dashboard-preview.png)
+![table](https://github.com/user-attachments/assets/c3c98666-1d88-44f9-b6cd-dcfe4da3953e)
+![table description](https://github.com/user-attachments/assets/931f233e-3004-48ab-a147-1e72edb186ac)
 
 ---
 
