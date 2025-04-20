@@ -2,6 +2,7 @@
 
 This is an interactive Streamlit dashboard designed to visualize and analyze business data such as employee salaries, departmental distribution, and demographic statistics. It integrates with a MySQL database and offers real-time filtering and graphical insights.
 ![homepage](https://github.com/user-attachments/assets/29469c56-6ddc-4a20-9c35-3cd6fe212a9c)
+
 ---
 
 ## 🚀 Features
@@ -15,7 +16,6 @@ This is an interactive Streamlit dashboard designed to visualize and analyze bus
 - 📐 Key business metrics (Total Customers, Max Salary, Total Annual Salary)
 - 📱 Fully responsive layout with custom CSS for enhanced UX
 
-
 ## 🧪 Tech Stack
 
 - **Python**
@@ -26,7 +26,6 @@ This is an interactive Streamlit dashboard designed to visualize and analyze bus
 - **NumPy**
 - **streamlit-option-menu**
 - **streamlit-extras**
-
 
 ## 📌 Topics Covered
 
@@ -48,19 +47,7 @@ This is an interactive Streamlit dashboard designed to visualize and analyze bus
 ---
 
 
----
-
-## 📦 2. Install Dependencies
-
-To run this project locally, follow these steps:
-
-### 🔧 Create and activate a virtual environment (recommended)
-
-python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
-
-### installing Required Libraries
+## 📥 Installing Required Libraries
 pip install -r requirements.txt
 pip install mysql-connector-python
 pip install streamlit-option-menu
@@ -69,7 +56,8 @@ pip install streamlit
 pip install pandas
 pip install plotly
 
-### 💾 3. Setup MySQL Database
+## 💾 3. Setup MySQL Database
+
 Install MySQL Server on your local machine.
 
 Create a database named my_streamlit.
@@ -97,15 +85,17 @@ CREATE TABLE customers (
 
 
 
-## 📦 Installation
+## 📦 2. Install Dependencies
 
-1. **Clone the repository**
+To run this project locally, follow these steps:
 
-git clone https://github.com/yourusername/business-data-analytics-dashboard.git
-cd business-data-analytics-dashboard
+### 🔧 Create and activate a virtual environment (recommended)
 
-Would you like me to also generate:
+```bash
+python -m venv venv
 
-- ✅ A `requirements.txt` file?
-- ✅ A custom `LICENSE` file (MIT or others)?
-- ✅ A sample `.sql` dump file from your CSV?
+# For Linux/Mac
+source venv/bin/activate      
+
+# For Windows
+venv\Scripts\activate
