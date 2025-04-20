@@ -71,6 +71,7 @@ This is an interactive Streamlit dashboard designed to visualize and analyze bus
 
 
 ## 📥 Installing Required Libraries
+
 pip install -r requirements.txt
 
 pip install mysql-connector-python
@@ -95,7 +96,10 @@ Import the provided customers.csv into a table named customers.
 
 You can use this SQL structure as a reference:
 
-CREATE TABLE customers (
+CREATE TABLE customers 
+
+(
+
     EEID INT,
     
     FullName VARCHAR(100),
