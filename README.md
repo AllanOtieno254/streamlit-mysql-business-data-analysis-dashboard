@@ -15,10 +15,6 @@ This is an interactive Streamlit dashboard designed to visualize and analyze bus
 - 📐 Key business metrics (Total Customers, Max Salary, Total Annual Salary)
 - 📱 Fully responsive layout with custom CSS for enhanced UX
 
----
-
-
----
 
 ## 🧪 Tech Stack
 
@@ -31,7 +27,6 @@ This is an interactive Streamlit dashboard designed to visualize and analyze bus
 - **streamlit-option-menu**
 - **streamlit-extras**
 
----
 
 ## 📌 Topics Covered
 
@@ -105,44 +100,12 @@ CREATE TABLE customers (
 ## 📦 Installation
 
 1. **Clone the repository**
-```bash
+
 git clone https://github.com/yourusername/business-data-analytics-dashboard.git
 cd business-data-analytics-dashboard
-
-
----
 
 Would you like me to also generate:
 
 - ✅ A `requirements.txt` file?
 - ✅ A custom `LICENSE` file (MIT or others)?
 - ✅ A sample `.sql` dump file from your CSV?
-
-Let me know!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
